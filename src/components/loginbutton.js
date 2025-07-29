@@ -11,7 +11,7 @@ function Loginbutton() {
         console.log(email.value);
         console.log(password.value);
 
-        fetch('http://localhost:4000', {
+        fetch('http://10.0.115.55:4000', {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
@@ -27,7 +27,7 @@ function Loginbutton() {
     }
 
     return(
-        <button className="LoginButton" onClick={onLogin}>Log In</button>
+        <a className="LoginButton" onClick={onLogin} href='./home?auth=239012930820980'>Log In</a>
     )
 }
 
