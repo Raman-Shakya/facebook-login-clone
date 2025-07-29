@@ -27,12 +27,15 @@ body {
 
 .fb-login-box {
   display: flex;
+  width: 100%;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .fb-login-box input {
   margin: 0;
   padding: 6px;
+  width: 200px;
   margin-right: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -53,7 +56,7 @@ body {
   color: #1877f2;
   font-size: 14px;
   text-decoration: none;
-  width: 300px;
+  width: fit-content;
 }
 
 .fb-content {
@@ -89,6 +92,7 @@ body {
 .fb-primary {
   background-color: #1877f2;
   color: white;
+  width: fit-content;
   border: none;
   padding: 10px 16px;
   border-radius: 6px;
@@ -103,5 +107,7 @@ body {
 .fb-links a {
   color: #1877f2;
   text-decoration: none;
-  margin: 0 5px;
+  font-weight: bold;
+  margin: 0 1px;
+  display: block;
 }

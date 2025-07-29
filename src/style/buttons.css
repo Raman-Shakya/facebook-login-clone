@@ -1,5 +1,7 @@
 .LoginButton {
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
     padding: 0.6rem;
     font-size: 1.25rem;
     font-weight: 700;
@@ -13,7 +15,7 @@
     border-radius: 5px;
     margin-top: -0.5rem;
     padding: 0.9rem;
-    width: 50%;
+    width: fit-content;
     font-size: 1.075rem;
     font-weight: 700;
     border: none;
@@ -28,7 +30,7 @@ button:hover {
 
 .ForgotPassword {
     padding: none;
-    margin-top: -1rem;
+    margin-top: -2rem;
     border: none;
     background-color: #ffffff;
 }

@@ -11,10 +11,10 @@ export default function App() {
     <Router>
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/login" element={<>
-                <Logo />
-                <Loginform />
-            </>
+        <Route path="/" element={<div class="login-wrapper">
+            <Logo />
+            <Loginform />
+          </div>
         } />
         <Route path="*" element={<NotFound />} />
       </Routes>
